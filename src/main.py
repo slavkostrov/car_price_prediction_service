@@ -7,9 +7,10 @@ import pandas as pd
 from fastapi import FastAPI, UploadFile
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
+from pathlib import Path
 
 app = FastAPI()
-_BEST_MODEL = joblib.load("BEST_MODEL_PIPE.pkl")
+_BEST_MODEL = joblib.load(Path(__file__).parent.parent / "models" / "BEST_MODEL_PIPE.pkl")
 
 
 class Item(BaseModel):
