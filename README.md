@@ -26,4 +26,4 @@
 
 ## Пример работы сервиса
 
-TBD
+[GDrive](https://drive.google.com/file/d/1vo2yzuj00wouYJRQZeX-jYj6ds3cckrX/view?usp=sharing)
